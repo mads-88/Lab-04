@@ -3,8 +3,12 @@ module naive (
     output Y
 );
 
-assign Y = (~A & ~B & ~C & ~D) | (~A & ~B & ~C & D) | (~A & ~B & C & ~D) | (~A & ~B & C & D) | (~A & B & ~C & ~D) | (~A & B & ~C & D) | 
-(~A & B & C & ~D) | (~A & B & C & D) | (A & ~B & ~C & ~D) | (A & ~B & ~C & D) | (A & ~B & C & ~D) | (A & ~B & C & D) | (A & B & ~C & ~D) | 
-(A & B & ~C & D) | (A & B & C & ~D) | (A & B & C & D); 
-
+assign Y = (~A & ~B & ~C & D) |
+(~A & ~B & C & ~D) |
+(~A & ~B & C & D) |
+(~A & B & ~C & ~D) | 
+(~A & B & C & ~D) | 
+(A & ~B & C & ~D) | 
+(A & B & ~C & ~D) | 
+(A & B & C & ~D);
 endmodule
