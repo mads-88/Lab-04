@@ -1,4 +1,6 @@
 # Lab 04 - SOP/POS and KMaps
+# Austin Maples & Madison Hickey
+# Team 48
 
 In this lab, you’ve learned how to apply KMaps, Sum Of Products and Products of
 sums to simplify digital logic equations. Then, you’ve proven out that they work
